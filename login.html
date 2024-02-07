@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+    <h1>Login</h1>
+
+    <div class="container">
+        <form action="login.html">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username" autocomplete="off" />
+                <span class="error-message" id="usernameError"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" autocomplete="off" />
+                <span class="error-message" id="passwordError"></span>
+            </div>
+
+            <input type="submit" name="submit" value="Login" autocomplete="off" />
+        </form>
+    </div>
+
+    <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+
+    <script src="./scripts/logingin.js"></script>
+</body>
+</html>
